@@ -127,6 +127,7 @@ docker-compose up --build
 
 # Backend: http://localhost:5000
 # Frontend: http://localhost:3000
+# Jenkins: http://localhost:8080
 ```
 
 To stop the containers:
