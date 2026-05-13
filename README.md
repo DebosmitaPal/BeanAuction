@@ -1,4 +1,4 @@
-# BeanAuction 
+# BeanAuction ☕
 
 A real-time auction platform for bean enthusiasts built with modern web technologies. Bid on rare coffee beans, create auctions, and connect with other collectors in real-time.
 
@@ -45,62 +45,14 @@ A real-time auction platform for bean enthusiasts built with modern web technolo
 
 ```
 BeanAuction/
-├── backend/                          # Node.js/Express server
-│   ├── config/
-│   │   └── db.js                    # MongoDB connection
-│   ├── controllers/
-│   │   ├── auctionController.js     # Auction business logic
-│   │   └── authController.js        # Authentication logic
-│   ├── middleware/
-│   │   └── authMiddleware.js        # JWT verification
-│   ├── models/
-│   │   ├── AuctionItem.js           # Auction schema
-│   │   ├── Bid.js                   # Bid schema
-│   │   └── User.js                  # User schema
-│   ├── routes/
-│   │   ├── auctions.js              # Auction endpoints
-│   │   └── auth.js                  # Auth endpoints
-│   ├── socketHandlers/
-│   │   └── auctionHandler.js        # WebSocket handlers
-│   ├── server.js                    # Entry point
-│   ├── package.json
-│   ├── Dockerfile
-│   ├── .dockerignore
-│   └── .env.example
+├── backend/                          
 │
-├── frontend/                         # React/Vite app
-│   ├── src/
-│   │   ├── api/
-│   │   │   └── axios.js             # Axios configuration
-│   │   ├── components/
-│   │   │   ├── Navbar.jsx           # Navigation bar
-│   │   │   ├── ProtectedRoute.jsx   # Route guard
-│   │   │   └── PaymentDemo.jsx      # Payment UI
-│   │   ├── context/
-│   │   │   ├── AuthContext.jsx      # Auth state management
-│   │   │   └── SocketContext.jsx    # WebSocket state management
-│   │   ├── pages/
-│   │   │   ├── Login.jsx            # Login page
-│   │   │   ├── Register.jsx         # Registration page
-│   │   │   ├── Dashboard.jsx        # Main dashboard
-│   │   │   ├── AuctionRoom.jsx      # Auction details & bidding
-│   │   │   ├── CreateAuction.jsx    # Create auction form
-│   │   │   └── Profile.jsx          # User profile
-│   │   ├── App.jsx                  # Root component
-│   │   ├── main.jsx                 # React entry point
-│   │   └── index.css                # Global styles
-│   ├── public/                      # Static assets
-│   ├── nginx.conf                   # Nginx configuration
-│   ├── package.json
-│   ├── vite.config.js
-│   ├── eslint.config.js
-│   ├── Dockerfile
-│   ├── .dockerignore
-│   └── .gitignore
+├── frontend/         
 │
-├── docker-compose.yml               # Multi-container orchestration
-├── .gitignore                       # Git ignore rules
-└── README.md                        # This file
+├── jenkins/
+|              
+├── docker-compose.yml                       
+└── Jenkinsfile                      
 ```
 
 ---
@@ -206,3 +158,4 @@ JWT_SECRET=your_jwt_secret_key_here
 
 Enjoy the BeanAuction platform and happy bidding! 🫘✨
 
+Made by Debosmita Pal ☕︎
